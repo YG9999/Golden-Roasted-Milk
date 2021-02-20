@@ -1,2 +1,2 @@
-# Japanese-style-hamburger-steak
-recipe-Japanese style hamburger steak
+# Golden-Toast-Milk
+recipe-golden toast milk
