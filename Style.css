@@ -59,3 +59,63 @@ p {
     grid-column-end:5;
     height:165px;
 }
+
+
+
+
+/* content columns */
+.hero-image {
+  background-image: url("img/post.jpeg");
+  grid-column: span 6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.right-panel {
+  grid-column: span 6;
+  background-color:#250500;
+}
+
+
+
+/* text component */
+.info-text {
+  margin-top:50px;
+}
+/* Although we're using CSS grid to define our page layout, we will use Flexbox in the container below
+to help us lay out this smaller component. Learn more about flexbox here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.boxes {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* The line below is shorthand for writing:
+  margin-top: 1.4em; margin-right: 0; margin-bottom: 1.4em; margin-left:0
+  You can see why the shorthand way is much cleaner!
+  Always keep in mind that in terms of padding and margins, it's always: top > right > bottom > left. just like a clock*/
+  margin: 1.4em 0;
+}
+
+.box {
+  width: 30%;
+  text-align:center;
+  margin-right: 1em;
+}
+
+
+hr.horizontal {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+.vertical-line {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  height:86px;
+}
