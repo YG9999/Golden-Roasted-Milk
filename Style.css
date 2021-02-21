@@ -48,32 +48,13 @@ color: #74150c;
 color: #E1C2BE;
 }
 
-
-/* grid container */
-/* .header { grid-area: header; }
-.left { grid-area: left; }
-.right { grid-area: right; }
-.footer { grid-area: footer; }
-
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header'
-    'left right'
-    'footer footer';
-  grid-gap: 10px;
-  background-color: #f8f0e7;
-  padding: 10px;
-} */
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
   grid-gap: 10px;
   background-color: #f8f0e7;
   padding: 10px;
-/*   gap: 17px 21px */
+  gap: 17px 21px
 }
 
 .grid-container > div {
