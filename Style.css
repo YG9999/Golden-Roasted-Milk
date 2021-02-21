@@ -16,11 +16,15 @@ color: maroon;
 text-align: center;
 }
 
+h2 {
+color: #552814
+}
+
 p {
 font-family: 'Rubik', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 1.4em;
+font-size: 1.0em;
 line-height: 1.5em;
 }
 
@@ -174,14 +178,14 @@ hr.horizontal {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(248,240,231, 0.3);
     margin: 1em 0;
     padding: 0;
     width: 100%;
 }
 
 .vertical-line {
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(248,240,231, 0.3);
   height:86px;
 }
 
