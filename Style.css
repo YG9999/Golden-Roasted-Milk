@@ -10,8 +10,6 @@ body {
 /* typography style */
 h1 {
 font-family: 'Rubik', sans-serif;
-font-style: normal;
-font-weight: normal;
 color: #74150c;
 text-align: center;
 }
@@ -25,23 +23,17 @@ text-align: center;
 
 h3 {
 font-family: 'Rubik', sans-serif;
-font-style: normal;
-font-weight: normal;
 color: #552814;
 }
 
 h5{
 font-family: 'Rubik', sans-serif;
-font-style: normal;
-font-weight: normal;
 color: #c8553d;
 text-align: center;
 }
 
 p {
 font-family: 'Rubik', sans-serif;
-font-style: normal;
-font-weight: normal;
 font-size: 1.0em;
 line-height: 1.5em;
 color: #74150c;
