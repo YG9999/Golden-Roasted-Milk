@@ -76,7 +76,6 @@ color: #E1C2BE;
 }
 .left {
   grid-column: 1 / span 6;
-  height:264px;
   background-image: url("img/post.jpeg");
   background-size: cover;
   background-position: center;
@@ -84,7 +83,6 @@ color: #E1C2BE;
 }
 .right {
   grid-column: 7 / span 6;
-  height:264px;
 }
 .footer {
   grid-column: 1 / span 12;
