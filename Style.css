@@ -1,21 +1,41 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
   background-color: linen;
   font-family: 'Rubik', sans-serif;
 }
 
-body, html {
-  margin:0;
-}
-
+/* typography style */
 h1 {
-  color: maroon;
-  text-align: center;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+color: maroon;
+text-align: center;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.4em;
+line-height: 1.5em;
 }
+
+.maroon {
+color: #74150c;
+}
+
+.linen { 
+color: #f8f0e7;
+}
+
+.light-grey {
+color: #E1C2BE;
+}
+
 
 /* grid container */
 .grid-container {
@@ -24,7 +44,7 @@ p {
   gap: 17px 21px;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: linen(248, 240, 231, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 30px;
   text-align: center;
@@ -34,7 +54,6 @@ p {
   background-color:grey;
   grid-column-start:1;
   grid-column-end:5;
-  /* height:20vh; */
   height:264px;
 }
 
@@ -74,7 +93,7 @@ p {
 
 .right-panel {
   grid-column: span 6;
-  background-color:#250500;
+  background-color:#f8f0e7;
 }
 
 
@@ -83,8 +102,7 @@ p {
 .info-text {
   margin-top:50px;
 }
-/* Although we're using CSS grid to define our page layout, we will use Flexbox in the container below
-to help us lay out this smaller component. Learn more about flexbox here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
 .boxes {
   width: 100%;
   text-align: center;
@@ -119,3 +137,38 @@ hr.horizontal {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   height:86px;
 }
+
+ 
+/* Media queries */
+@media (max-width:600px){
+
+.boxes {
+  display: block;
+}
+.vertical-line{
+display:none;
+}
+
+}
+
+
+@media (max-width:1083px){
+
+  .hero-image{
+    height:40vh;
+  }
+  .right-panel {
+    min-height:100vh;
+
+  }
+}
+
+
+@media (min-width:1084px) {
+html {
+  font-size: 1vw;
+}
+.hero-image {
+    height: 100vh;
+}
+  }
