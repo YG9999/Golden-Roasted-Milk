@@ -86,7 +86,6 @@ color: #E1C2BE;
 }
 .footer {
   grid-column: 1 / span 12;
-  height:3000px;
 }
 
 /* .grid-item {
