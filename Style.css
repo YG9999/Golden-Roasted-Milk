@@ -140,7 +140,9 @@ color: #E1C2BE;
   background-color:#f8f0e7;
 }
 
-
+.hero-text {
+  padding:12% 8% 0;
+}
 
 /* text component */
 .info-text {
