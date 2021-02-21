@@ -204,7 +204,9 @@ hr.horizontal {
     border-radius: 40px;
     front-family: 'Rubik', sans-serif;
     front-size: 24px;
-    line-height: 29px
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .button-margin {
