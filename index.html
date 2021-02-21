@@ -8,10 +8,10 @@
 </head>
    
 <style>
-   .item1 { grid-area: header;}
-   .item2 { grid-area: left;}
-   .item3 { grid-area: right;}
-   .item4 { grid-area: footer;}
+   .header { grid-area: header;}
+   .left { grid-area: left;}
+   .right { grid-area: right;}
+   .footer { grid-area: footer;}
    
 .grid-container {
    display: grid;
@@ -37,13 +37,15 @@
 <!---Setting up our grid container--->
   <div class="gridcontainer">
 
+    <div class="header">Header</div>
+     
     <!---This hero-image class will be filled with an image using CSS background-image property.
     Check the style.css file to see how this works--->
-    <div class="hero-image">
+    <div class="left">Left
     </div>
 
     <!---Creating a class for the area with a dark background on the right. We'll define the background color in the CSS file.--->
-    <div class="right-panel">
+    <div class="right">
 
       <!---A container for all the text on top of the dark background--->
       <div class="hero-text">
@@ -114,6 +116,8 @@
 
 <!--This is the end of the dark panel content-->
     </div>
+     
+     <div class="footer">Footer</div>
 
 <!--Closing tag for the grid container-->
   </div>
