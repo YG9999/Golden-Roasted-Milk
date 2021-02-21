@@ -202,6 +202,13 @@ hr.horizontal {
     padding: 10px 30px;
     background-color: #561e1a;
     border-radius: 40px;
+    front-family: 'Rubik', sans-serif;
+    front-size: 24px;
+    line-height: 29px
+}
+
+.button-margin {
+margin-top: 74px
 }
 /* Media queries */
 @media (max-width:600px){
