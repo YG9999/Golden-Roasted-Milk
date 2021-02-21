@@ -197,7 +197,12 @@ hr.horizontal {
   height:86px;
 }
 
- 
+.anchor-link {
+    color: #fdfcfa;
+    padding: 10px 30px;
+    background-color: #561e1a;
+    border-radius: 40px;
+}
 /* Media queries */
 @media (max-width:600px){
 
