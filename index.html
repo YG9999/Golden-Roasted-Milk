@@ -8,51 +8,39 @@
 
    
 <style>
-.header { grid-area: header;}
-.left { grid-area: left;}
-.right { grid-area: right;}
-.footer { grid-area: footer;}
-   
+.header { grid-area: header; }
+.left { grid-area: left; }
+.right { grid-area: right; }
+.footer { grid-area: footer; }
+
 .grid-container {
-   display: grid;
-   grid-template-areas:
-      'header header'
-      'left right'
-      'footer footer';
-   grid-gap: 10px;
-   background-color: #f8f0e7;
-   padding: 10px;
-   
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'left right'
+    'footer footer';
+  grid-gap: 10px;
+  background-color: #f8f0e7;
+  padding: 10px;
+}
+
 .grid-container > div {
-   background-color: background-color: rgba(248, 240, 231, 0.8);
-   text-align: center;
-   padding: 20px 0;
-   font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 </style>
-</head>   
-   
+</head>
 <body>
 
-<!---Setting up our grid container--->
-<div class="gridcontainer">
 
-    <div class="header">Header</div>
-     
-    <!---This hero-image class will be filled with an image using CSS background-image property.
-    Check the style.css file to see how this works--->
-    <div class="left">Left</div>
-
-    <!---Creating a class for the area with a dark background on the right. We'll define the background color in the CSS file.--->
-    <div class="right">Right</div>     
-     
-    <div class="footer">Footer</div>
-
-<!--Closing tag for the grid container-->
+<div class="grid-container">
+  <div class="header">Header</div>
+  <div class="left">Menu</div> 
+  <div class="right">Right</div>
+  <div class="footer">Footer</div>
 </div>
 
-<!--and finally we're done with the whole HTML file! Great job we made it!-->
 </body>
 </html>
-
-
