@@ -7,6 +7,31 @@
    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
 </head>
    
+<style>
+   .item1 { grid-area: header;}
+   .item2 { grid-area: left;}
+   .item3 { grid-area: right;}
+   .item4 { grid-area: footer;}
+   
+.grid-container {
+   display: grid;
+   grid-template-areas:
+      'header header'
+      'left right'
+      'footer footer'
+   grid-gap: 10px;
+   background-color: #f8f0e7;
+   padding: 10px;
+   
+.grid-container > div {
+   background-color: background-color: rgba(248, 240, 231, 0.8);
+   text-align: center;
+   padding: 20px 0;
+   font-size: 30px;
+}
+</style>
+   
+   
 <body>
 
 <!---Setting up our grid container--->
