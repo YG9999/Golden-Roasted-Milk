@@ -81,59 +81,6 @@ color: #E1C2BE;
   grid-column: 1 / span 12;
 }
 
-/* .grid-item {
-  background-color: linen(248, 240, 231, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  font-size: 30px;
-  text-align: center;
-} */
-
-/* .header {
-  background-color:grey;
-  grid-column-start:1;
-  grid-column-end:5;
-  height:264px;
-} */
-
-/* .left-menu{
-  background-color:grey;
-  grid-column-start:1;
-  grid-column-end:2;
-  /* height:20vh; */
-/*   height:40vh;
-}
-.main-content-area{
-  background-color:grey;
-  grid-column-start:2;
-  grid-column-end:5;
-  height:40vh;
-} */
-
-/* .footer {
-
-    background-color:grey;
-    grid-column-start:1;
-    grid-column-end:5;
-    height:165px;
-}
- */ */
-
-
-
-/* content columns */
-/* .hero-image {
-  background-image: url("img/post.jpeg");
-  grid-column: span 6;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
-/* 
-.right-panel {
-  grid-column: span 6;
-  background-color:#f8f0e7;
-} */
-
 .hero-text {
   padding:12% 8% 0;
 }
@@ -149,10 +96,6 @@ color: #E1C2BE;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  /* The line below is shorthand for writing:
-  margin-top: 1.4em; margin-right: 0; margin-bottom: 1.4em; margin-left:0
-  You can see why the shorthand way is much cleaner!
-  Always keep in mind that in terms of padding and margins, it's always: top > right > bottom > left. just like a clock*/
   margin: 1.4em 0;
 }
 
