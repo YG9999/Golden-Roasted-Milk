@@ -21,6 +21,7 @@ font-family: 'Rubik', sans-serif;
 font-style: normal;
 font-weight: normal;
 color: #552814;
+text-align: center;
 }
 
 h3 {
@@ -45,6 +46,7 @@ font-weight: normal;
 font-size: 1.0em;
 line-height: 1.5em;
 color: #74150c;
+text-align: center;
 }
 
 .maroon {
