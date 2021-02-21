@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: linen;
+  background-color: #f8f0e7;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -12,12 +12,23 @@ h1 {
 font-family: 'Rubik', sans-serif;
 font-style: normal;
 font-weight: normal;
-color: maroon;
+color: #74150c;
 text-align: center;
 }
 
 h2 {
-color: #552814
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+color: #552814;
+}
+
+h5{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+color: #74150c;
+text-align: center;
 }
 
 p {
@@ -26,6 +37,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 1.0em;
 line-height: 1.5em;
+color: #74150c;
 }
 
 .maroon {
